@@ -26,6 +26,10 @@ const Sidebar = () => {
       label: "Counter",
       path: "/counter",
     },
+    {
+      label: "ProgressBar",
+      path: "/progress",
+    },
   ];
 
   const renderedLinks = links.map((link) => {
